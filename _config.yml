@@ -6,40 +6,40 @@
 title: Hexo
 subtitle:
 description:
-author: Ç§Ñ°
+author: åƒå¯»
 language:
 timezone:
 
-# Í·ÏñÉèÖÃ£¡£¡£¡£¡
+# å¤´åƒè®¾ç½®ï¼ï¼ï¼ï¼
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
 # default : /images/default_avatar.jpg
-# avatar: /avatar.jpg ÓÉÓÚÅäÖÃÊ¼ÖÕÃ»ÉúĞ§¡£
-# ÎÒĞŞ¸ÄÁË themes\yilia\layout\_partial\left-col.ejs ÍøÒ³Í·Ïñ
-# ÎÒĞŞ¸ÄÁË themes\yilia\layout\_partial\mobile-nav.ejs ÒÆ¶¯¶ËÍ·Ïñ
-# °ÑÀïÃæÍ¼Æ¬µÄµØÖ·Ğ´ËÀÁË£¬µÚÁù/Ê®ĞĞ£º<img src="/girl.jpg" class="js-avatar">
-# ÆäÖĞ girl2.jpg Í¼Æ¬ÊÇ·ÅÔÚsourceÄ¿Â¼ÏÂµÄ¡£
+# avatar: /avatar.jpg ç”±äºé…ç½®å§‹ç»ˆæ²¡ç”Ÿæ•ˆã€‚
+# æˆ‘ä¿®æ”¹äº† themes\yilia\layout\_partial\left-col.ejs ç½‘é¡µå¤´åƒ
+# æˆ‘ä¿®æ”¹äº† themes\yilia\layout\_partial\mobile-nav.ejs ç§»åŠ¨ç«¯å¤´åƒ
+# æŠŠé‡Œé¢å›¾ç‰‡çš„åœ°å€å†™æ­»äº†ï¼Œç¬¬å…­/åè¡Œï¼š<img src="/girl.jpg" class="js-avatar">
+# å…¶ä¸­ girl2.jpg å›¾ç‰‡æ˜¯æ”¾åœ¨sourceç›®å½•ä¸‹çš„ã€‚
 
-# Í¬Ê±£¬ĞŞ¸ÄÍøÕ¾Í¼±êÒ²ºÜ¼òµ¥£¬Ö±½ÓĞŞ¸ÄsourceÏÂµÄfavicon.png Í¼Æ¬¼´¿É¡£
+# åŒæ—¶ï¼Œä¿®æ”¹ç½‘ç«™å›¾æ ‡ä¹Ÿå¾ˆç®€å•ï¼Œç›´æ¥ä¿®æ”¹sourceä¸‹çš„favicon.png å›¾ç‰‡å³å¯ã€‚
 
 # When running hexo in a subdirectory (e.g. domain.tld/blog)
 # Remove leading slashes ( "/archives" -> "archives" )
-menu: #²Ëµ¥Â·¾¶ÉèÖÃ Èç¹ûhexoÔÚ¶ş¼¶Ä¿Â¼·ÅÖÃÒªÈ¥µô/
+menu: #èœå•è·¯å¾„è®¾ç½® å¦‚æœhexoåœ¨äºŒçº§ç›®å½•æ”¾ç½®è¦å»æ‰/
   home: /
-  archives: /archives #¹éµµ
-  tags: /tags #±êÇ©
-  categories: /categories  #·ÖÀà
-  about: /about #¹ØÓÚÎÒ
-  commonweal: /404.html  #¹«Òæ404
+  archives: /archives #å½’æ¡£
+  tags: /tags #æ ‡ç­¾
+  categories: /categories  #åˆ†ç±»
+  about: /about #å…³äºæˆ‘
+  commonweal: /404.html  #å…¬ç›Š404
 
 # Enable/Disable menu icons.
 # Icon Mapping:
 #   Map a menu item to a specific FontAwesome icon name.
 #   Key is the name of menu item and value is the name of FontAwsome icon.
 #   When an question mask icon presenting up means that the item has no mapping icon.
-menu_icons:  #iconÍ¼±ê
+menu_icons:  #iconå›¾æ ‡
   enable: true
   # Icon Mapping.
   home: home
@@ -49,18 +49,18 @@ menu_icons:  #iconÍ¼±ê
   archives: archive
   commonweal: heartbeat
 
-# Schemes  #nextµÄÈı¸öscheme
+# Schemes  #nextçš„ä¸‰ä¸ªscheme
 #scheme: Muse
 #scheme: Mist
 scheme: Pisces
 
-# Social links   #Éç½»Á´½Ó
+# Social links   #ç¤¾äº¤é“¾æ¥
 social:
   GitHub: 
   Weibo:
   Others:
 
-# Social Icons  #Éç½»µÄÍ¼±ê
+# Social Icons  #ç¤¾äº¤çš„å›¾æ ‡
 social_icons:
   enable: true
   # Icon Mappings
@@ -121,10 +121,10 @@ default_category: uncategorized
 category_map:
 tag_map:
 
-# TOC in the Sidebar  #ÎÄÕÂ×Ô¶¯ÏÔÊ¾Ä¿Â¼
+# TOC in the Sidebar  #æ–‡ç« è‡ªåŠ¨æ˜¾ç¤ºç›®å½•
 toc:
   enable: true
-  # Automatically add list number to toc.  #Ä¿Â¼ÊÇ·ñ×Ô¶¯ÏÔÊ¾Êı×ÖĞòºÅ
+  # Automatically add list number to toc.  #ç›®å½•æ˜¯å¦è‡ªåŠ¨æ˜¾ç¤ºæ•°å­—åºå·
   number: false
 
 
@@ -146,10 +146,10 @@ pagination_dir: page
 ##theme: landscape
 theme: yilia
 
-## ÎÄÕÂÄ©Î²ÊÇ·ñÏÔÊ¾´òÉÍ°´Å¥
+## æ–‡ç« æœ«å°¾æ˜¯å¦æ˜¾ç¤ºæ‰“èµæŒ‰é’®
 donate: 
   enable: true
-  text: Enjoy it ? Donate me !  ĞÀÉÍ´ËÎÄ£¿Çó¹ÄÀø£¬ÇóÖ§³Ö£¡
+  text: Enjoy it ? Donate me !  æ¬£èµæ­¤æ–‡ï¼Ÿæ±‚é¼“åŠ±ï¼Œæ±‚æ”¯æŒï¼
   alipay: 
   wechat: 
 
@@ -157,9 +157,12 @@ donate:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-##  repository: git@github.com/qianyuqianxun36963/qianyuqianxun36963.github.com
-  repository: https://{qianyuqianxun36963}:{wfcm5201314}@github.com/qianyuqianxun36963/qianyuqianxun36963.github.com
-  branch: master
+  #repo: https://github.com/qianyuqianxun36963/qianyuqianxun36963.github.io.git
+  repo: 
+    # éƒ¨ç½²åˆ°github
+    github: git@github.com:qianyuqianxun36963/qianyuqianxun36963.github.com.git,master
+    # éƒ¨ç½²åˆ°coding.netã€‚å–æ¶ˆæ³¨é‡Šï¼Œå¯åŒæ—¶éƒ¨ç½²
+    #coding: git@git.coding.net:qianyuqianxun36963/blog.git,coding-pages
 
 jsonContent:
   meta: false
